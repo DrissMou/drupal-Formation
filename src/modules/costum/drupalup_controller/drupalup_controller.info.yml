@@ -1,0 +1,4 @@
+name: drupal module avec template
+description: module avec controller et template
+type: module
+core: 8.x

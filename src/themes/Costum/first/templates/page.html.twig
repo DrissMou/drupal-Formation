@@ -1,0 +1,25 @@
+
+{#{{  page.page_buttom }}#}
+
+<div class="page">
+  {% if page.header %}
+    <header>
+      {{ page.header}}
+      {#{{ dump(page.header) }}#}
+      {#{{ dump() }}#}
+    </header>
+  {% endif %}
+  <main>
+    {{ page.content }}
+  </main>
+  {% if page.sidebar %}
+    <div id="sidebar">
+      {{ page.sidebar }}
+    </div>
+  {% endif %}
+  {% if page.header %}
+    <footer>
+      {{ page.header}}
+    </footer>
+  {% endif %}
+</div>

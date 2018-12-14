@@ -1,0 +1,16 @@
+name:
+type: theme
+description: this is my first theme
+core: 8.x
+screenshot: Mytheme.png
+
+regions:
+  header: header
+  content: content
+  sidebar_first: Sidebadr First
+  footer: Footer
+  page_top: Page Top
+  page_buttom: Page bottom
+
+libraries:
+-   Mytheme/global-css

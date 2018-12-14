@@ -1,0 +1,7 @@
+global-css:
+  version: '1.0.x'
+  css:
+    theme:
+      css/test.css: {}
+
+

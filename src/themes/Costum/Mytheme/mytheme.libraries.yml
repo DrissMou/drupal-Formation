@@ -1,0 +1,11 @@
+global-css:
+  version: Version
+  css:
+    theme:
+      css/style.css: {}
+      css/responsive.css: {}
+      css/font-awesome.min.css: {}
+      css/pgwslider.css: {}
+      css/tooltipster.css: {}
+      css/test.css: {}
+      test.css: {}

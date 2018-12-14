@@ -1,0 +1,31 @@
+<?php
+
+/**
+ * Implemeting hook theme().
+ */
+function drupalup_controller_theme($existing, $type, $theme, $path)
+{
+  return array(
+    'article_list' => array(
+      'variable' =>array('items' =>array(), 'title' => ''),
+      'template' => 'article-list'
+    )
+  );
+}
+
+// Preprocess
+// module_name_preprocess_twig_name()
+
+function drupalup_controller_preprocess_article_list(&$vars){
+
+  $items =array(
+    array('name' => 'Article one'),
+    array('name' => 'Article Two'),
+    array('name' => 'Article Three'),
+    array('name' => 'Article Four')
+  );
+
+  $vars['articles'] = $items;
+
+//  \Symfony\Component\VarDumper\VarDumper::dump($vars);
+}

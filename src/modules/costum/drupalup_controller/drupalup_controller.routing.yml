@@ -1,0 +1,8 @@
+drupalup_controller.article_list:
+  path: /drupalup
+  defaults:
+    _controller: '\Drupal\drupalup_controller\Controller\ArticleControllerTest::page'
+    _title: 'this page for articles'
+#    _theme: 'liste article'
+  requirements:
+    _permission: 'access content'

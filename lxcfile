@@ -1,0 +1,3 @@
+name=drupaldev
+template=stretch
+mount=.:/var/www/drupaldev

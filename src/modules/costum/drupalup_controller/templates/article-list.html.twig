@@ -1,0 +1,24 @@
+{#<h4>{{ title }}</h4>#}
+{#<h4>drissberos</h4>#}
+{#<h4>fretoxbaby</h4>#}
+
+{#{% for letter in 'a'..'z' %}#}
+  {#* {{ letter }}#}
+{#{% endfor %}#}
+
+{#{{ dump(article) }}#}
+
+    {% for article in articles %}
+        <li>{{  article.name }}</li>
+      {{ 3+3 }}
+    {% endfor %}
+
+{% for article in articles %}
+   <br>
+{% endfor %}
+
+
+{% for article in articles %}
+        <li>{{  article.name }}</li>
+      {{ 3+3 }}
+{% endfor %}
