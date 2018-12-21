@@ -52,6 +52,7 @@
         "drupal/metatag": "^1.4.0",
         "drupal/pathauto": "^1.0",
         "drupal/redis": "1.0.0",
+        "drupal/scheduler": "1.x-dev",
         "drupal/token": "^1.1.0",
         "drush/drush": "~9.2.1",
         "oomphinc/composer-installers-extender": "^1.1",
